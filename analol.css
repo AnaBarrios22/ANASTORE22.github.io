@@ -150,7 +150,7 @@ img {
     padding-top: 2em;
 }
 .eliminarProducto {
-    color: red;
+    color: rgb(255, 236, 236);
     cursor: pointer;
     margin-left: 1em;
 }
@@ -170,17 +170,15 @@ img {
 }
 
 .add-to-cart {
-background-color: black;
-color: white; /
-
-}
-
-
-
-
-
-
-
+    padding: 5px 5px;
+    font-size: 15px;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
 
 
 
@@ -192,6 +190,11 @@ color: white; /
 
 
 
+
+
+
+ 
+  
 
 
 
@@ -509,4 +512,5 @@ color: white; /
     text-align: center;
     background-color: #000000;
 }
+
 
